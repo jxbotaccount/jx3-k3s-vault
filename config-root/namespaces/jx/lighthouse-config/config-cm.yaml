@@ -9,6 +9,7 @@ data:
       enabled:
         keerthana4008/jx3-k3s-vault: true
         keerthana4008/keerthana4008: true
+        keerthana4008/new2: true
     plank: {}
     pod_namespace: jx
     prowjob_namespace: jx
@@ -22,6 +23,7 @@ data:
       merge_method:
         keerthana4008/jx3-k3s-vault: merge
         keerthana4008/keerthana4008: merge
+        keerthana4008/new2: merge
       queries:
       - labels:
         - approved
@@ -34,6 +36,7 @@ data:
         repos:
         - keerthana4008/jx3-k3s-vault
         - keerthana4008/keerthana4008
+        - keerthana4008/new2
       - labels:
         - updatebot
         missingLabels:
@@ -45,6 +48,7 @@ data:
         repos:
         - keerthana4008/jx3-k3s-vault
         - keerthana4008/keerthana4008
+        - keerthana4008/new2
       target_url: http://lighthouse.jx.172.30.44.165/merge/status
 kind: ConfigMap
 metadata:
