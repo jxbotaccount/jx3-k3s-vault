@@ -8,6 +8,7 @@ spec:
     provider: https://github.com
     providerKind: github
     repositories:
+    - name: "1"
     - name: keerthana4008
     - name: new2
     scheduler: in-repo
