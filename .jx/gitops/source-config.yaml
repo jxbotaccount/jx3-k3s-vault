@@ -10,6 +10,7 @@ spec:
     repositories:
     - name: keerthana4008
     - name: new2
+    - name: newer
     scheduler: in-repo
   slack:
     channel: '#jenkins-x-pipelines'
