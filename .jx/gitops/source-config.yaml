@@ -11,6 +11,14 @@ spec:
     - name: keerthana4008
     - name: new2
     scheduler: in-repo
+  jenkinsServers:
+  - groups:
+    - owner: keerthana4008
+      provider: https://github.com
+      providerKind: github
+      repositories:
+      - name: hello-k8s
+    server: myjenkins
   slack:
     channel: '#jenkins-x-pipelines'
     kind: failureOrNextSuccess
